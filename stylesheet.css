@@ -1,10 +1,4 @@
-p {
-  font-family: sans-serif;
-  font: arial;
-  color: #000;
-  opacity: 0.75;
-  font-size: 13px;
-}
+
 
 .search {
   vertical-align: top;
@@ -83,11 +77,21 @@ p {
   height: 34px;
 }
 
+.leftheader p, .rightheader p, .rightfooter p, .leftfooter p {
+  font-family: sans-serif;
+  font: arial;
+  color: #000;
+  opacity: 0.75;
+  font-size: 13px;
+}
+
 .leftheader p, .rightheader p, .rightheader img, .rightheader button  {
   margin: 10px 0 0 15px;
   display: inline-block;
   vertical-align: middle;
 }
+
+
 
 .leftheader p:hover, .rightheader p:hover {
   color: #000;
